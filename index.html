@@ -1,44 +1,41 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
+<!DOCTYPE html> <!--Väljer senaste html version-->
+<html lang="en"> <!--väljer språket på hemsidan-->
+<head> <!--teknisk del som inte syns på hemsidan-->
+    <meta charset="UTF-8">  <!--sätter bokstavstyp till utf-8-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Premier League</title>
-    <link rel="icon" type="image/x-icon" href="https://b.fssta.com/uploads/application/soccer/competition-logos/EnglishPremierLeague.png">
+    <link rel="icon" href="https://b.fssta.com/uploads/application/soccer/competition-logos/EnglishPremierLeague.png">
     <link href="index.css" rel="stylesheet">
-  
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+ </head> <!--sätter bokstavstyp till utf-8, -->
 
- </head>
-
-<body>
-    <div class="wrapper">
-     <header>
-        <img class="logo" src="images/pl.png" alt="logo">
-         <nav>
-            <ul class="nav-links">
-                <li><a class="nava" href="index.html">HOME</a></li>
+<body> <!--Delarna som syns på hemsidan-->
+    <div class="wrapper"> <!---->
+     <header> <!--toppen av hemsidan-->
+        <img class="logo" src="images/pl.png" alt="logo"> <!--lägger in bild-->
+         <nav> <!--skapar en nav/navigation-->
+            <ul class="nav-links"> <!--oordnadlista alltså inga nummer-->
+                <li><a class="nava" href="index.html">HOME</a></li><!--lägger in ett item i listan-->
                 <li><a class="nava" href="resultat.html">RESULTS</a></li>
                 <li><a class="nava" href="stats.html">STATISTICS</a></li>
             </ul>
          </nav>
      </header>
-         <main>
-            <section class="isakarticle">
-                <img src="images/ISAK.webp" class="pic1">
-                <h1>Alexander Isak too good for the Premier League?</h1>
-                <p>Scoring 500 goals in one match against liverpool makes Isak top scorer in the premier league </p>
+         <main class="spalt"> <!--huvuddelen av sidan-->
+            <section class="article">  <!--delar upp flera attributer in i en sektion får en klass för att kommer använda mig av flera sections-->
+                <img src="images/ISAK.webp" class="pic1" alt="ISAK"> 
+                <h1>Alexander Isak too good for the Premier League?</h1> <!--mindre rubrik-->
+                <p>Scoring 500 goals in one match against liverpool makes Isak top scorer in the premier league </p> <!--stycke av text-->
             </section>
-            <section class="goalsarticle">
-                <a href="https://www.youtube.com/watch?v=EuNGR4JoJsY" target="_blank"><img src="images/tn.jpg"class="pic2"></a> 
+            <section class="article">
+                <a href="https://www.youtube.com/watch?v=EuNGR4JoJsY" target="_blank"> <img src="images/tn.jpg" class="pic2" alt="video"></a> <!--Gör bilden till klickbar och skickar dig till en annan sida-->
                 <h1>BEST GOALS in september</h1>
                 <p>Take a look of the best Premier League goals in the month if september</p>
             </section>
          </main>  
-     <footer>
+     <footer> <!--botten av sidan-->
         <p>Viktor Jakobsen TE22A</p>
     </footer>
     </div>
