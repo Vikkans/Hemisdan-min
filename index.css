@@ -1,22 +1,22 @@
 
 
 
-p{
-    font-family: 'Montserrat', sans-serif;
+p{ /*förändrar mina stycken*/
+    font-family: 'Montserrat', sans-serif; /*ändrar font*/
 }
 
-body{
-    height: 95vh;
+body{ /*ändrar hela hemsidan*/
+    height: 95vh; /*modifierar höjden*/
 }
 
 
 .wrapper{
- display:grid;
+ display:grid; /*visar min grid*/
  height: 100%;
- width: 100%;
- grid-template-rows: 100px auto 50px;
- margin: 0 auto;
- grid-template-areas: 
+ width: 100%; /*modiferar bredd*/
+ grid-template-rows: 100px auto 50px; /*storleken på mina olika områden i min grid*/
+ margin: 0 auto; /*ändrar margin*/ 
+ grid-template-areas: /*skapar mina grid områden*/
  "header"
  "main"
  "footer";
@@ -26,12 +26,11 @@ body{
 
 .nava{
     font-family: 'Montserrat', sans-serif;
-    font-weight:  500;
-    font-size: 16px;
-    color: white;
+    font-size: 16px; /*storlek på texten*/
+    color: white; /*färg på texten*/
     text-decoration: none; /*förändrar dekorationer på text om underline*/
-    padding: 9px 25px;
-    background-color: rgb(121, 69, 121); 
+    padding: 9px 25px; /*ändrar hur mycke padding*/
+    background-color: rgb(121, 69, 121); /*bakgrund färg*/
     border-radius: 50px; /*rundade kanter*/
   
     
@@ -45,61 +44,56 @@ body{
 
 
 
-header{
-    display: block;
-    justify-content: space-between;
-    align-items: center;
+header{ 
     padding: 30px 10%;
     background-color: rgb(121, 69, 121);
     
 }
 
 .logo{
-    height: 70px;
-    position: absolute;
+    height: 70px; 
+    position: absolute; /*gör så att man får modifera precis vart den sitter*/
     top: 25px;
     left: 10px;
 }
 
 .pic1{
-    width: 480px;
-    border-radius: 10px;
+    width: 100%;
+    border-radius: 10px; 
+    height: 280px;
     
 }
 .pic2{
-    width: 500px;
+    width: 100%;
     border-radius: 10px;
+    height: 250px;
     
 }
 
 
 .nav-links {
-    list-style: none;
+    list-style: none; /*tar bort prickarna från listan*/
    
 }
 
 .nav-links li{
-    display: inline-block;
+    display: inline-block; /*gör så att dom inte tar upp hela sidan */
     padding: 0% 10px;
 
 }
 
-.nav-links li a{
-    transition: all 0.3s ease 0s;
-}
 
-
-.nava:hover{
+.nava:hover{ /*när du håller över nav*/ 
     background-color: black;
     transition: 0.5s;
 }
 
 footer{
-    grid-area:footer;
+    grid-area:footer; /*väljer vilken del av min grid det är*/
     background-color: rgb(105, 105, 105);
     height: 80px;
     color: white;   
-    border-top: solid rgb(121, 69, 121);;
+    border-top: solid rgb(121, 69, 121); /*ändrar bara översta delen av bordern*/ 
     padding-left: 50px;
     font-family: 'Montserrat', sans-serif;
 }
@@ -139,7 +133,7 @@ th, td{
     border-top: 1px solid grey;
 }
 
-tr:nth-child(even){
+tr:nth-child(even){ /*förändrar varje jämn tr*/
     background-color: lightgray;
 }
 
@@ -154,7 +148,7 @@ tr:nth-child(even){
 
 }
 
-.player > p{
+.player > p{ /*alla p innanför klass player*/ 
     
     font-weight: bold;
     font-family: "Montserrat", sans-serif;
